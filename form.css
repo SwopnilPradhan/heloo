@@ -57,11 +57,18 @@
 }
 
 #video{
-    border: saddlebrown solid;
+    border: aqua solid;
     box-shadow: 0px 50px 100px #262626;
 }
-
-
+#3{
+   background-color:aqua;
+}
+#4{
+   background-color:aqua;
+}
+#5{
+   background-color:aqua;
+}
 #map{
     border: aqua solid 3px;
     box-shadow: 0px 50px 100px #262626;
