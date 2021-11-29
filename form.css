@@ -1,3 +1,19 @@
+#r{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: white;
+}
+#57{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: white;
+}
 body{
      height: 500px;
      background:linear-gradient(orange,yellow);
