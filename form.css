@@ -17,6 +17,9 @@
 body{
      height: 500px;
      background:linear-gradient(orange,yellow);
+     background-repeat:no-repeat;
+     background-attachment:fixed;
+     background-size:100% 100%;
 }
 .header{
     padding: 20px 10px;
