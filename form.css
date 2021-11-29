@@ -4,15 +4,15 @@
     border: none;
     border-radius: 17px;
     padding-left: 7px;
-    color: white;
+    color: black;
 }
-#57{
+.57{
     width: 300px;
     height: 30px;
     border: none;
     border-radius: 17px;
     padding-left: 7px;
-    color: white;
+    color: black;
 }
 body{
      height: 500px;
