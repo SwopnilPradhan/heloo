@@ -90,7 +90,7 @@ Let's do a math problem of root(square):√144=12
 
 <style>
 #myProgress {
-  width: 100%;
+  width: 50%;
   background-color: #ddd;
 }
 
@@ -107,7 +107,7 @@ Let's do a math problem of root(square):√144=12
 </div>
 
 <br>
-<button onclick="move()">Click Me</button> 
+<button onclick="move()">Run</button> 
 
 <script>
 var i = 0;
@@ -118,7 +118,7 @@ function move() {
     var width = 1;
     var id = setInterval(frame, 10);
     function frame() {
-      if (width >= 100) {
+      if (width >= 50) {
      clearInterval(id);
         i = 0;
       } else {
