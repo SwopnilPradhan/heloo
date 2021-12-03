@@ -87,21 +87,28 @@ Let's do a math problem of root(square):√144=12
 <br><br><br><br>
 <H3 align="center">If You are comfortable then scroll down to enjoy more 👍</h3>
  <H3 align="center">Loading completed please wait</h3> 
-<div id="myProgress">
-  <div id="myBar"></div>
-</div>
- <Style>
+
+<style>
 #myProgress {
   width: 100%;
-  background-color: grey;
+  background-color: #ddd;
 }
 
 #myBar {
   width: 1%;
   height: 30px;
-  background-color: green;
+  background-color: #04AA6D;
 }
 </style>
+
+
+<div id="myProgress">
+  <div id="myBar"></div>
+</div>
+
+<br>
+<button onclick="move()">Click Me</button> 
+
 <script>
 var i = 0;
 function move() {
@@ -112,7 +119,7 @@ function move() {
     var id = setInterval(frame, 10);
     function frame() {
       if (width >= 100) {
-        clearInterval(id);
+     clearInterval(id);
         i = 0;
       } else {
         width++;
@@ -121,7 +128,6 @@ function move() {
     }
   }
 }
-</script>
 <h2 id="5">Map of jagannath temple odisha<br>
 <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d928.682766863089!2d85.8178383!3d19.8046556!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19c6b8bfe386af%3A0x8f052c84639c7d48!2sSri%20Jagannatha%20Temple%20Puri!5e1!3m2!1sen!2sin!4v1638031036603!5m2!1sen!2sin"
  width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
