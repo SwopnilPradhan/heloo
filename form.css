@@ -78,6 +78,14 @@ body{
     margin-top: 100px;
     box-shadow: 0px 50px 100px #262626;
 }
+.for{
+    align:center;
+    text-align: center;
+    background-color: aqua;
+    width: fit-content;
+    margin-top: 100px;
+    box-shadow: 0px 50px 100px #262626;
+}
 
 #video{
     border: aqua solid;
