@@ -69,7 +69,14 @@ body{
     }
     
 }
-
+.frm{
+    background-image:teahub.io-full-screen-hd-wallpaper-702540.png.jpg;
+    align:center;
+    text-align: center;
+    width: fit-content;
+    margin-top: 100px;
+    box-shadow: 0px 50px 100px #FFB6C1;
+}
 .form{
     align:center;
     text-align: center;
