@@ -70,7 +70,7 @@ body{
     
 }
 .frm{
-    background-image:teahub.io-full-screen-hd-wallpaper-702540.png.jpg;
+    background-image:url("teahub.io-full-screen-hd-wallpaper-702540.png.jpg");
     align:center;
     text-align: center;
     width: fit-content;
